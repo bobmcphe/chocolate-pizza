@@ -13,8 +13,8 @@
 <header>
 <ul id="logo">
     <li><img src="assets/logo.png"></li>
-    <h1>Delicious</h1>
-    <p id="slogan" style="font-family:monospace; font-size: 14px">THE BEST FOOD BLOG ON THE WEB.</p>
+   <li><h1>Delicious</h1></li>
+   <li><p id="slogan" style="font-family:monospace; font-size: 12 px">THE BEST FOOD BLOG ON THE WEB.</p></li>
 </ul>
 
 <ul id="social">
@@ -57,7 +57,7 @@
     </article>
 
     <div id="notepad">
-            <ul class="recipe">
+            <ul class="recipe" id="recipeLeft">
                 <li><input type="checkbox">1 1/2 cups milk</li>
                 <li><input type="checkbox">1/2 cup mascarpone</li>
                 <li><input type="checkbox">1/2 tsp pink salt</li>
@@ -66,7 +66,7 @@
                 <li><input type="checkbox">2-4 tbsp water</li>
             </ul>
 
-            <ul class="recipe">
+            <ul id="recipeRight" class="recipe">
                 <li><input type="checkbox">1 1/2 cups heavy cream</li>
                 <li class="strike"><input type="checkbox">1/3 granulated sugar</li>
                 <li class="strike"><input type="checkbox">2 egg yolks</li>
@@ -87,8 +87,9 @@
   <hr class="halfsize">
   <img class="center" src="/assets/twit-icon.png">
   <hr class="halfsize" id="lefthr">
-  <p class="center">Delicious C 2013 dot All Rights Reserved.</p>
-  <p class="center">Proudly published with Ghost.</p>
-
+    <div class="center">
+        <p class="center">Delicious © 2013 • All Rights Reserved.</p>
+        <p class="center">Proudly published with Ghost.</p>
+    </div>
 </footer>
 </html>
