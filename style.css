@@ -12,7 +12,9 @@ h2 {
 }
 
 p {
-    margin-top: 1px;
+
+    text-indent: 2em;
+    font-size: 20px;
 }
 
 body {
@@ -54,11 +56,13 @@ ul {
       display: inline;
       float: left;
       text-align: center;
+      padding: 1px;
       
   }
 
   #social {
       float: right;
+      padding-right: 23px;
   }
 
   #logo li{
@@ -67,9 +71,18 @@ ul {
 
   #printer {
       float: right;
-      padding-right: 25px;
+      display: inline-block;
+      padding-right: 26px;
   }
 /* 
   #title {
       display: inline-block;
+  } */
+
+  .halfsize {
+      max-width: 45%;
+  }
+
+  /* #lefthr {
+      float: left;
   } */
