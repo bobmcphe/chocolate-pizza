@@ -141,6 +141,7 @@ ul {
 
   .recipe li{
       padding: 5px;
+      font-family: 'Source Sans Pro', sans-serif;
   }
 
 #recipeRight {
@@ -159,6 +160,7 @@ p {
     line-height: 20px;
 }
 
+/*=======================================*/
 /* FOOTER SECTION =======================*/
 
 h3 {
@@ -191,7 +193,14 @@ footer button {
     width: max-content;
     text-align: center;
     padding: 50px;
+    padding-top: 0px;
+    
   }
+#copywrite p{
+    color: #bbbbbb;
+    line-height: 18px;
+    margin-top: 0px;
+}
 
   #leftHR {
       float: left;
@@ -203,9 +212,14 @@ footer button {
 
   .halfsize {
     max-width: 48%;
+    color: #D8613C;
 }
 
 footer img {
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     margin-top: -7px;
+}
+
+footer hr {
+    color: red;
 }
