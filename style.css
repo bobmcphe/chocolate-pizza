@@ -1,13 +1,18 @@
-* {
+/* * {
     border-style: solid;
     border-color: red;
-}
+} */
 h1{
     font-family: Yellowtail;
+    margin-top: 0px;
 }
 
 h2 {
 
+}
+
+p {
+    margin-top: 1px;
 }
 
 body {
@@ -47,6 +52,24 @@ ul {
 
   #social li {
       display: inline;
-      float: right;
+      float: left;
       text-align: center;
+      
   }
+
+  #social {
+      float: right;
+  }
+
+  #logo li{
+      float: left;
+  }
+
+  #printer {
+      float: right;
+      padding-right: 25px;
+  }
+/* 
+  #title {
+      display: inline-block;
+  } */
