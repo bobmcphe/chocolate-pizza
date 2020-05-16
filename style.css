@@ -99,9 +99,7 @@ ul {
       font-family: monospace;
   }
 
-  .halfsize {
-      max-width: 45%;
-  }
+ 
 
   /* #lefthr {
       float: left;
@@ -161,13 +159,21 @@ p {
     line-height: 20px;
 }
 
+/* FOOTER SECTION =======================*/
+
+h3 {
+    padding-top: -50px;
+    margin-top: -50px;
+}
+
 footer p {
-    display: inline;
+    /* display: inline; */
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
     line-height: 22px;
     color: #555;
-    width: 100px;
+    width: 650px;
+    text-indent: 0em;
 
 }
 
@@ -179,3 +185,27 @@ footer button {
     font-size: 16px;
     border: none;
   }
+
+  #copywrite {
+    margin: 0 auto;
+    width: max-content;
+    text-align: center;
+    padding: 50px;
+  }
+
+  #leftHR {
+      float: left;
+  }
+
+  #rightHR {
+      float: right;
+  }
+
+  .halfsize {
+    max-width: 48%;
+}
+
+footer img {
+    padding-bottom: 30px;
+    margin-top: -7px;
+}
