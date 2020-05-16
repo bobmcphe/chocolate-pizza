@@ -30,9 +30,17 @@ ul {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+
+ ul.recipe {
+      list-style-type: square;
    
   }
 
-  .recipe {
-      z-index: 1;
+  .strike {
+    text-decoration: line-through;
+  }
+
+  #social {
+      float: right;
   }
