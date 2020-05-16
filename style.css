@@ -2,13 +2,19 @@
     border-style: solid;
     border-color: red;
 } */
+
 h1{
     font-family: Yellowtail;
-    margin-top: 0px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+    font-size: 38px;
 }
 
 h2 {
-
+margin-top: 65px;
+margin-bottom: 10px;
+margin-left: 20px;
+font-size: 38px;
 }
 
 p {
@@ -63,10 +69,12 @@ ul {
   #social {
       float: right;
       padding-right: 23px;
+      padding-top: 20px;
   }
 
   #logo li{
       float: left;
+      padding-right: 10px;
   }
 
   #printer {
@@ -74,10 +82,14 @@ ul {
       display: inline-block;
       padding-right: 26px;
   }
-/* 
-  #title {
-      display: inline-block;
-  } */
+
+  #printer p {
+      float: right;
+      padding-left: 5px;
+      color: grey;
+      font-size: 14px;
+      font-family: monospace;
+  }
 
   .halfsize {
       max-width: 45%;
@@ -87,4 +99,25 @@ ul {
       float: left;
   } */
 
-  making a stupid change
+  #slogan {
+      margin-top: 0px;
+      display: inline-block;
+      text-indent: 0em;
+  }
+
+  #logo {
+    display: inline-block;
+     float: none;
+  }
+
+  #printer p {
+      margin: 0px;
+      text-indent: 0em;
+  }
+
+  #title p {
+    color: grey;
+    font-size: 18px;
+    font-family: monospace;
+    text-indent: 1.55em;
+  }
