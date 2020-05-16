@@ -2,6 +2,13 @@
     border-style: solid;
     border-color: red;
 }
+h1{
+    font-family: Yellowtail;
+}
+
+h2 {
+
+}
 
 body {
     width: 960px;
