@@ -21,9 +21,13 @@ ul {
 }
 
 #notepad {
-    /* width: 899px;
-    margin: 0 auto; */
-    z-index: 0;
+    background-image: url("/assets/list-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 899px;
+    margin: 0 auto;
+
 }
 
 .center {
@@ -41,6 +45,8 @@ ul {
     text-decoration: line-through;
   }
 
-  #social {
+  #social li {
+      display: inline;
       float: right;
+      text-align: center;
   }
