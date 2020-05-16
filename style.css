@@ -1,0 +1,90 @@
+/* * {
+    border-style: solid;
+    border-color: red;
+} */
+h1{
+    font-family: Yellowtail;
+    margin-top: 0px;
+}
+
+h2 {
+
+}
+
+p {
+
+    text-indent: 2em;
+    font-size: 20px;
+}
+
+body {
+    width: 960px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    float: left;
+}
+
+#notepad {
+    background-image: url("/assets/list-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 899px;
+    margin: 0 auto;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+ ul.recipe {
+      list-style-type: square;
+   
+  }
+
+  .strike {
+    text-decoration: line-through;
+  }
+
+  #social li {
+      display: inline;
+      float: left;
+      text-align: center;
+      padding: 1px;
+      
+  }
+
+  #social {
+      float: right;
+      padding-right: 23px;
+  }
+
+  #logo li{
+      float: left;
+  }
+
+  #printer {
+      float: right;
+      display: inline-block;
+      padding-right: 26px;
+  }
+/* 
+  #title {
+      display: inline-block;
+  } */
+
+  .halfsize {
+      max-width: 45%;
+  }
+
+  /* #lefthr {
+      float: left;
+  } */
+
+  making a stupid change
