@@ -1,0 +1,14 @@
+* {
+    border-style: solid;
+    border-color: red;
+}
+
+ul {
+    list-style-type: none;
+    float: left;
+}
+
+#notepad {
+    width: 899px;
+    margin: 0 auto;
+}
