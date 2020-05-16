@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <link href='https://fonts.googleapis.com/css?family=Yellowtail' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
   <title>Chocolate Pizza</title>
   <meta name="description" content="Chocolate Pizza">
   <meta name="author" content="Robert McPherson">
@@ -13,8 +14,8 @@
 <header>
 <ul id="logo">
     <li><img src="assets/logo.png"></li>
-    <h1>Delicious</h1>
-    <p style=font-family:monospace>THE BEST FOOD BLOG ON THE WEB</p>
+   <li><h1>Delicious</h1></li>
+   <li><p id="slogan" style="font-family:monospace; font-size: 12 px">THE BEST FOOD BLOG ON THE WEB.</p></li>
 </ul>
 
 <ul id="social">
@@ -33,13 +34,17 @@
 
 
 <body>
+    <main>
+    <div>
     <div id="title">
-    <h1>Chocolate Pizza</h1>
-    <p>POSTED ON 15 DEC 2013/DESERTS</p>
-</div>
+     <h2>Chocolate Pizza</h2>
+     <p>POSTED ON 15 DEC 2013/DESERTS</p>
+    </div>
    <div id="printer"><img src="assets/print-icon.png"><p>PRINT</p></div>
         <img class="center" src="assets/choco-pizza.png">
+    </div>
 
+    <article>
         <p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve
             all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring
             frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool
@@ -51,39 +56,47 @@
             instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture and the
             nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish, or glass
             tupperware. Freeze for at least two hours before serving</p>
+    </article>
+
     <div id="notepad">
-            <ul class="recipe">
-                <li>1 1/2 cups milk</li>
-                <li>1/2 cup mascarpone</li>
-                <li>1/2 tsp pink salt</li>
-                <li>1 lb Black Mission Figs</li>
-                <li>1/2 cup brown suger</li>
-                <li>2-4 tbsp water</li>
+            <ul class="recipe" id="recipeLeft">
+                <li><input type="checkbox">1 1/2 cups milk</li>
+                <li><input type="checkbox">1/2 cup mascarpone</li>
+                <li><input type="checkbox">1/2 tsp pink salt</li>
+                <li><input type="checkbox">1 lb Black Mission Figs</li>
+                <li><input type="checkbox">1/2 cup brown suger</li>
+                <li><input type="checkbox">2-4 tbsp water</li>
             </ul>
 
-            <ul class="recipe">
-                <li>1 1/2 cups heavy cream</li>
-                <li class="strike">1/3 granulated sugar</li>
-                <li class="strike">2 egg yolks</li>
-                <li>1lemon, juiced</li>
-                <li>2 tbsp butterr</li>
-                <li>1 cup honey roasted pecans, roughly chopped</li>
+            <ul id="recipeRight" class="recipe">
+                <li><input type="checkbox">1 1/2 cups heavy cream</li>
+                <li class="strike"><input type="checkbox">1/3 granulated sugar</li>
+                <li class="strike"><input type="checkbox">2 egg yolks</li>
+                <li><input type="checkbox">1 lemon, juiced</li>
+                <li><input type="checkbox">2 tbsp butter</li>
+                <li><input type="checkbox">1 cup honey roasted pecans, roughly chopped</li>
             </ul>
     </div>
     <br>
     <hr>
 
     <script src="js/scripts.js"></script>
+</main>
 </body>
 <footer>
     <img src="/assets/van-pic.png">
-    <h2>Vanessa Stevenson</h2>
-    <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
-  <hr class="halfsize">
-  <img class="center" src="/assets/twit-icon.png">
-  <hr class="halfsize" id="lefthr">
-  <p class="center">Delicious C 2013 dot All Rights Reserved.</p>
-  <p class="center">Proudly published with Ghost.</p>
+    <h3>Vanessa Stevenson</h3>
+    <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p> 
+    <button>SHARE RECIPE</button>
+    <br><br><br>
 
+  <hr class="halfsize" id="leftHR">
+  <img src="/assets/small-logo.png">
+  <hr class="halfsize" id="rightHR">
+
+    <div id="copywrite">
+        <p>Delicious © 2013 • All Rights Reserved.</p>
+        <p>Proudly published with Ghost.</p>
+    </div>
 </footer>
 </html>
