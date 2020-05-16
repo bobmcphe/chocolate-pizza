@@ -3,12 +3,29 @@
     border-color: red;
 }
 
+body {
+    width: 960px;
+    margin: 0 auto;
+}
+
 ul {
     list-style-type: none;
     float: left;
 }
 
 #notepad {
-    width: 899px;
-    margin: 0 auto;
+    /* width: 899px;
+    margin: 0 auto; */
+    z-index: 0;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
+
+  .recipe {
+      z-index: 1;
+  }
