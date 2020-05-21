@@ -3,6 +3,14 @@
     border-color: red;
 } */
 
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
 h1{
     font-family: Yellowtail;
     margin-top: -10px;
@@ -20,6 +28,12 @@ h2 {
     text-indent: .2em;
 }
 
+h3 {
+    display: inline;
+    margin-top: -20px;
+}
+
+
 /* Header section ++++++++++++++ */
 
 header hr {
@@ -30,15 +44,47 @@ header hr {
     margin-bottom: 40px;
   }
 
+  #social li {
+    display: inline;
+    float: left;
+    text-align: center;
+    padding: 1px;
+}
+
+#social li:nth-child(7) {
+  padding-left: 10px;
+}
+
+#social {
+    float: right;
+    padding-right: 23px;
+    padding-top: 20px;
+}
 
 
+#logo li{
+    float: left;
+    /* padding-right: 10px; */
+}
 
+#logo p {
+    font-size: 10px;
+    float: left;
+}
 
+#slogan {
+    margin-top: 32px;
+    display: block;
+    text-indent: 0em;
+    margin-left: -118px;
+}
 
-
-
-
-
+#logo {
+  display: inline-block;
+  float: none;
+  /* padding-right: 125px; NOT WORKING*/
+}
+/* END HEADER SECTION ========== */
 
 
 
@@ -64,6 +110,8 @@ ul {
     float: left;
 }
 
+
+/* Notepad section =============  */
 #notepad {
     background-image: url("/assets/list-bg.png");
     background-repeat: no-repeat;
@@ -73,42 +121,35 @@ ul {
     margin: 0 auto;
 }
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .strike {
     text-decoration: line-through;
   }
 
-  #social li {
-      display: inline;
-      float: left;
-      text-align: center;
-      padding: 1px;
-  }
+  .recipe li{
+    padding: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    /* color: #734012; */
+    color: #7b6a24;
+    font-size: 20px;
+    line-height: 20px;
+}
 
-  #social li:nth-child(7) {
-    padding-left: 10px;
-  }
+#recipeRight {
+  padding-left: 170px;
+  padding-top: 24px;
+}
 
-  #social {
-      float: right;
-      padding-right: 23px;
-      padding-top: 20px;
-  }
+#recipeLeft {
+  padding-left: 70px;
+  padding-top: 24px;
+}
 
-  #logo li{
-      float: left;
-      /* padding-right: 10px; */
-  }
 
-  #logo p {
-      font-size: 10px;
-      float: left;
-  }
+/* end notepade */
+
+
+
+
 
   #printer {
       float: right;
@@ -124,25 +165,6 @@ ul {
       color: grey;
       font-size: 14px;
       font-family: monospace;
-  }
-
- 
-
-  /* #lefthr {
-      float: left;
-  } */
-
-  #slogan {
-      margin-top: 32px;
-      display: block;
-      text-indent: 0em;
-      margin-left: -118px;
-  }
-
-  #logo {
-    display: inline-block;
-    float: none;
-    /* padding-right: 125px; NOT WORKING*/
   }
 
   #printer p {
@@ -163,26 +185,6 @@ ul {
       width: 900px;
   }
 
-  h3 {
-      display: inline;
-      margin-top: -20px;
-  }
-
-  .recipe li{
-      padding: 5px;
-      font-family: 'Source Sans Pro', sans-serif;
-      color: #734012;
-  }
-
-#recipeRight {
-    padding-left: 170px;
-    padding-top: 24px;
-}
-
-#recipeLeft {
-    padding-left: 70px;
-    padding-top: 24px;
-}
 
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
