@@ -90,6 +90,10 @@ ul {
       padding: 1px;
   }
 
+  #social li:nth-child(7) {
+    padding-left: 10px;
+  }
+
   #social {
       float: right;
       padding-right: 23px;
@@ -129,14 +133,16 @@ ul {
   } */
 
   #slogan {
-      margin-top: 0px;
-      display: inline-block;
+      margin-top: 32px;
+      display: block;
       text-indent: 0em;
+      margin-left: -118px;
   }
 
   #logo {
     display: inline-block;
     float: none;
+    /* padding-right: 125px; NOT WORKING*/
   }
 
   #printer p {
