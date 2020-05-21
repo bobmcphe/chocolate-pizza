@@ -42,6 +42,13 @@ header hr {
     border: none;
     margin-top: 0px;
     margin-bottom: 40px;
+    background: repeating-linear-gradient( 
+        45deg,
+        #fff,
+        #fff 2px,
+        #555 2px,
+        #555 3px);
+    /* Gradient borrowed from https://love2dev.com/blog/css-background-stripes/ */
   }
 
   #social li {
@@ -128,7 +135,6 @@ ul {
   .recipe li{
     padding: 5px;
     font-family: 'Source Sans Pro', sans-serif;
-    /* color: #734012; */
     color: #7b6a24;
     font-size: 20px;
     line-height: 20px;
@@ -197,7 +203,14 @@ main hr {
     background-color: #ddd;
     border: none;
     margin-top: 0px;
-    margin-bottom: 40px;
+    margin-bottom: 40px;    
+    background: repeating-linear-gradient( 
+        45deg,
+        #fff,
+        #fff 2px,
+        #555 2px,
+        #555 3px);
+    /* Gradient borrowed from https://love2dev.com/blog/css-background-stripes/ */
   }
 
 /*=======================================*/
@@ -205,11 +218,17 @@ main hr {
 
 h3 {
     padding-top: -50px;
+    display: inline;
     margin-top: -50px;
 }
 
+footer h3 {
+    display: inline;
+    /* font-size: 2px; */
+}
+
 footer p {
-    /* display: inline; */
+    display: inline;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
     line-height: 22px;
@@ -226,6 +245,7 @@ footer button {
     color: white;
     font-size: 16px;
     border: none;
+    margin-top: -135px;
   }
 
   #copywrite {
@@ -261,6 +281,4 @@ footer img {
     margin-top: -7px;
 }
 
-footer hr {
-    color: red;
-}
+
