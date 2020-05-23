@@ -29,7 +29,7 @@ h2 {
 }
 
 h3 {
-    display: inline;
+    /* display: inline; */
     margin-top: -20px;
 }
 
@@ -217,17 +217,19 @@ main hr {
 /* FOOTER SECTION =======================*/
 
 h3 {
-    padding-top: -50px;
+    /* padding-top: -50px; */
     display: inline;
     margin-top: -50px;
 }
 
-footer h3 {
+footer article h3 {
     display: inline;
-    /* font-size: 2px; */
+    font-size: 22px;
+    margin-top: -55px;
+    line-height: 32px;
 }
 
-footer p {
+footer article p {
     display: inline;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
@@ -244,7 +246,7 @@ footer button {
     color: white;
     font-size: 16px;
     border: none;
-    margin-top: -135px;
+    margin-top: -45px;
   }
 
   #copywrite {
@@ -252,7 +254,7 @@ footer button {
     width: max-content;
     text-align: center;
     padding: 50px;
-    padding-top: 0px;
+    padding-top: 50px;
     
   }
 #copywrite p{
@@ -260,6 +262,7 @@ footer button {
     line-height: 18px;
     margin-top: 0px;
     padding: 0px;
+    font-size: 16px;
 }
 
   #leftHR {
@@ -276,8 +279,25 @@ footer button {
 }
 
 footer img {
+    float: left;
     padding-bottom: 10px;
-    margin-top: -7px;
+    margin-top: -6px; 
+    margin-right: 20px;
+   
 }
 
+
+#bio {
+    display: inline;
+}
+
+#footerDivider {
+    padding-top: 85px;
+}
+
+#footerDivider img {
+    padding-bottom: 0px;
+    margin-bottom: -26px;
+  
+}
 
