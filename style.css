@@ -260,8 +260,9 @@ footer button {
 #copywrite p{
     color: #bbbbbb;
     line-height: 18px;
-    margin-top: 10px;
+    margin-top: 0px;
     padding: 0px;
+    font-size: 16px;
 }
 
   #leftHR {
@@ -282,6 +283,7 @@ footer img {
     padding-bottom: 10px;
     margin-top: -6px; 
     margin-right: 20px;
+   
 }
 
 
@@ -296,5 +298,6 @@ footer img {
 #footerDivider img {
     padding-bottom: 0px;
     margin-bottom: -26px;
+  
 }
 
