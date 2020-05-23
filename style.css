@@ -29,7 +29,7 @@ h2 {
 }
 
 h3 {
-    display: inline;
+    /* display: inline; */
     margin-top: -20px;
 }
 
@@ -222,12 +222,13 @@ h3 {
     margin-top: -50px;
 }
 
-footer h3 {
+footer article h3 {
     display: inline;
-    /* font-size: 2px; */
+    font-size: 22px;
+    margin-top: -55px;
 }
 
-footer p {
+footer article p {
     display: inline;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
@@ -244,7 +245,7 @@ footer button {
     color: white;
     font-size: 16px;
     border: none;
-    margin-top: -135px;
+    margin-top: -45px;
   }
 
   #copywrite {
@@ -276,8 +277,18 @@ footer button {
 }
 
 footer img {
+    float: left;
     padding-bottom: 10px;
-    margin-top: -7px;
+    margin-top: -6px; 
+    margin-right: 20px;
 }
 
 
+#bio {
+    display: inline;
+
+}
+
+#footerDivider {
+    padding-top: 85px;
+}
